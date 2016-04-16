@@ -19,11 +19,11 @@ selenium安装方法：
 Chrome Driver安装方法：
 
 1. 到[Chrome Driver官网](https://sites.google.com/a/chromium.org/chromedriver/downloads)下载合适的版本并将其中的chromedriver解压到自己喜欢的地方
-2. 将chromedriver所在的目录加到环境变量```PATH```中，如果你在使用```bash```，可以用如下命令：
+2. 将chromedriver所在的**目录**加到环境变量```PATH```中，以便可以在命令行中找到chromedriver。如果你在使用```bash```，可以用如下命令：
 
 
 
-        echo 'export PATH=$PATH:/path/to/your/chromedriver' >> ~/.bashrc
+        echo 'export PATH=$PATH:/chromedriver/s/directory' >> ~/.bashrc
         source ~/.bashrc 
         
 ## 爬淘宝数据
